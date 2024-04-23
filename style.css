@@ -109,6 +109,17 @@ body {
   font-weight: bold;
 }
 
-.exercise-bottom p {
-  
+.error {
+  color: red;
+  border: red solid thin;
+}
+
+.correct {
+  color: green;
+  border: green solid thin;
+}
+
+.result {
+  font-weight: 700;
+  text-decoration: underline;
 }
