@@ -291,13 +291,81 @@
 		</div>
 		<div class="exercise-bottom">
 			<h4>Translate the sentences from Russian into English using the Active Vocabulary.</h4>
-			<ol>
-				<li>Сначала ты должен <u>потушить костер</u>, а потом можешь ехать домой, но <u>не наоборот.</u></li>
-				<li><u>Кстати</u>, на конференции вы можете <u>задавать</u> спикеру любые вопросы.</li>
-				<li>Когда он <u>поставил себя на мое место</u>, он <u>уступил</u>.</li>
-				<li><u>В каком-то роде</u> мне легко <u>замолвить за нее словечко.</u></li>
-				<li>Я <u>хорошо лажу</u> с соседом по комнате, я собираюсь <u>положить конец</u> его чудачеству.</li>
-			</ol>
+			<form>
+				<ol>
+					<li>Сначала ты должен 
+						<select id="ex_10_1" name="ex_10_1">
+							<option>потушить костер</option>
+							<option>extinguish the fire</option>
+							<option>to put out a fire</option>
+						</select>, а потом можешь ехать домой, но не
+						<select id='ex_10_2'>
+							<option>наоборот</option>
+							<option>the other way round</option>
+							<option>the other way around</option>
+							<option>vice versa</option>
+						</select>.
+					</li>
+					<li>
+						<select id="ex_10_3">
+							<option>Кстати</option>
+							<option>By the way</option>
+							<option>besides</option>
+							<option>in fact</option>
+						</select>, на конференции вы можете 
+						<select>
+							<option>задавать</option>
+							<option>ask</option>
+							<option>put any questions to </option>
+							<option>request</option>
+						</select> спикеру любые вопросы.
+					</li>
+					<li>Когда он 
+						<select>
+							<option>поставил себя на мое место</option>
+							<option>put himself in my place</option>
+							<option>put himself in my shoes</option>
+						</select>, он 
+						<select>
+							<option>уступил</option>
+							<option>gave way</option>
+							<option>gave in</option>
+							<option>surrender</option>
+						</select>.
+					</li>
+					<li>
+						<select>
+							<option>В каком-то роде</option>
+							<option>In a way</option>
+							<option>In some way</option>
+							<option>At a way</option>
+						</select> мне легко 
+						<select>
+							<option>замолвить за нее словечко.</option>
+							<option>to put in a good word for</option>
+							<option>to put a word for</option>
+							<option>say good things</option>
+						</select>
+					</li>
+					<li>Я 
+						<select>
+							<option>хорошо лажу</option>
+							<option>have a way with</option>
+							<option>get along with</option>
+							<option>get along well with</option>
+						</select> с соседом по комнате, я собираюсь 
+						<select>
+							<option>положить конец</option>
+							<option>to put an end to</option>
+							<option>to put a stop to</option>
+							<option>to stop</option>
+							<option>to finish</option>
+						</select> его чудачеству.</li>
+				</ol>
+				<input type="button" value="Finish" onClick="checkTest(ex_9_answers, 'travelling_ex_9')">
+				<input type="button" value="Try again" onClick="clearTest('travelling_ex_9')">
+				<p class="result"></p>
+			</form>
 		</div>
 	</div>
 
